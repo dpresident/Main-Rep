@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 900px;
+    border: black 1.5px solid;
+    margin: 300px;
+}
+
+h1 {
+    padding: 18px;
+    font-size: 36px;
+}
+
+span {
+    color: red;
+}
+
+input {
+    padding: 12px;
+    width: 100%;
+    font-size: 15px;
+}
+
+input:hover {
+    border: 6px solid steelblue;
+}
+textarea, select:hover {
+    border: 6px solid slateblue;
+}
+
+p {
+    font-size: 24px;
+    padding: 12px;
+}
+
+.submit {
+    color: aliceblue;
+    background-color: red;
+    padding: 15px;
+    margin: 30px;
+    margin-left: 30em;
+}
+
+.submit:hover {
+    transition: all 1s;
+    border-style: groove;
+    border-color: springgreen;
+}
+
+select,
+textarea {
+    font-size: 18px;
+}
