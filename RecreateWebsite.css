@@ -1,0 +1,881 @@
+:root {
+  --paper: #fbf7ee;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* The website in main */
+body {
+  background:
+    linear-gradient(135deg, rgba(219, 233, 210, 0.8), transparent 34%),
+    linear-gradient(315deg, rgba(217, 130, 107, 0.18), transparent 42%),
+    var(--paper);
+  overflow-x: hidden;
+}
+
+/* The Beginning Of The First Section */
+
+h1 {
+  color: #333;
+  padding-left: 240px;
+  padding-top: 15px;
+}
+
+.header {
+  border-bottom: 0.5px solid transparent;
+  background-color: rgba(240, 248, 255, 0.716);
+  margin-top: -33px;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(15px);
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.top {
+  text-decoration: none;
+  color: #333;
+}
+
+.top:visited {
+  color: #333;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: gray;
+  position: relative;
+  padding: 45px;
+  left: 24em;
+  top: -69px;
+  font-size: 30px;
+}
+
+.btn1 a {
+  text-decoration: none;
+}
+
+.btn1 a:visited {
+  color: #000;
+}
+
+li a:hover {
+  color: #333;
+}
+
+.journey {
+  position: relative;
+  left: 99em;
+  top: -153px;
+  border-radius: 51px;
+  background-color: rgb(44, 90, 44);
+  padding: 20px;
+}
+
+.star {
+  position: relative;
+  left: 9.9rem;
+  top: 120px;
+  border: 1.5px solid gray;
+  font-size: 20px;
+  border-radius: 50px;
+  margin-left: 10px;
+  padding: 2.5px;
+  width: 13.5%;
+}
+
+.btn {
+  padding-left: 240px;
+  padding-top: 750px;
+  gap: 3rem;
+  display: flex;
+}
+
+.btn1 {
+  background-color: rgb(44, 90, 44);
+  padding: 15px;
+  border-radius: 51px;
+}
+
+.btn2 {
+  background-color: rgb(236, 237, 239);
+  padding: 15px;
+  border-radius: 51px;
+}
+
+.btn2 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn2 a:visited {
+  color: #000;
+}
+
+span {
+  position: relative;
+  top: 210px;
+  left: 4.1em;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.soul {
+  position: relative;
+  left: 9.9rem;
+  top: 390px;
+  font-size: 45px;
+  width: 13.5%;
+  display: inline;
+}
+
+/* Image Edit */
+
+#hero-image {
+  position: relative;
+  left: 71.4em;
+  top: -300px;
+  border-radius: 300%;
+  width: 600px;
+  height: 600px;
+}
+
+#hero-image:hover {
+  transition: transform ease-in-out 0.5s;
+  transform: scale(1.1);
+}
+
+.sp1,
+.sp2,
+.sp3,
+.sp4,
+.sp5,
+.sp6 {
+  display: inline-block;
+  font-size: 18px;
+  border: 0.5px solid black;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.sp1:hover {
+  transition: transform ease-in-out 0.5s;
+  transform: scale(1.2);
+}
+
+.sp2:hover {
+  transition: transform ease-in-out 0.5s;
+  transform: scale(1.2);
+}
+
+.sp3:hover {
+  transition: transform ease-in-out 0.5s;
+  transform: scale(1.2);
+}
+
+.sp4:hover {
+  transition: transform ease-in-out 0.5s;
+  transform: scale(1.2);
+}
+
+.sp5:hover {
+  transition: transform ease-in-out 0.5s;
+  transform: scale(1.2);
+}
+
+.sp6:hover {
+  transition: transform ease-in-out 0.5s;
+  transform: scale(1.2);
+}
+
+.sp1 {
+  background-color: rgb(248, 253, 204);
+  position: relative;
+  top: -35rem;
+  left: 74rem;
+}
+
+.sp2 {
+  background-color: rgb(248, 253, 204);
+  position: relative;
+  top: -35rem;
+  left: 86rem;
+}
+
+.sp3 {
+  background-color: rgb(248, 253, 204);
+  position: relative;
+  top: -25rem;
+  left: 60rem;
+}
+
+.sp4 {
+  background-color: rgb(248, 253, 204);
+  position: relative;
+  top: -25rem;
+  left: 77rem;
+}
+
+.sp5 {
+  background-color: rgb(248, 253, 204);
+  position: relative;
+  top: -17rem;
+  left: 55rem;
+}
+
+.sp6 {
+  background-color: rgb(248, 253, 204);
+  position: relative;
+  top: -17rem;
+  left: 63rem;
+}
+
+.fam,
+.calm,
+.rate {
+  font-size: 24px;
+}
+
+.fam {
+  position: relative;
+  left: 240px;
+  top: 390px;
+  display: inline-block;
+}
+
+.calm {
+  position: relative;
+  left: 390px;
+  top: 390px;
+  display: inline-block;
+}
+
+.rate {
+  position: relative;
+  left: 540px;
+  top: 390px;
+  display: inline-block;
+}
+
+/* The End Of The First Section */
+
+/* The Beginning Of The Second Section */
+
+/* .our {
+  font-size: 21px;
+  position: relative;
+  top: 210px;
+  left: 249px;
+}
+
+h2 {
+  position: relative;
+  top: 210px;
+  left: 240px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+}
+
+i {
+  color: rgb(44, 90, 44);
+}
+
+.para {
+  font-size: 30px;
+  width: 25%;
+  position: relative;
+  left: 240px;
+  top: 210px;
+  display: inline-block;
+}
+
+.div {
+  display: inline-flex;
+  width: 130%;
+  height: auto;
+  gap: 30px;
+}
+
+.safe,
+.con,
+.com,
+.trst,
+.res,
+.awa {
+  border: 0.5px solid black;
+  border-radius: 20px;
+  background-color: rgb(245, 246, 243);
+  width: 20%;
+  font-size: 30px;
+}
+
+#shield-icon,
+#star-icon,
+#message-icon,
+#love-icon,
+#leaf-icon,
+#eye-icon {
+  width: 21px;
+  position: relative;
+  bottom: -0.1em;
+  font-size: 30px;
+  left: 5px;
+}
+
+.safe {
+  position: relative;
+  top: -210px;
+  left: 36em;
+}
+
+.con {
+  position: relative;
+  top: -210px;
+  left: 37.5em;
+}
+
+.com {
+  position: relative;
+  left: -1em;
+}
+
+.trst {
+  position: relative;
+  left: 0.8em;
+}
+
+.res {
+  position: relative;
+  left: -37.7em;
+  top: 210px;
+}
+
+.awa {
+  position: relative;
+  left: -36em;
+  top: 210px;
+}
+
+.safe-div,
+.con-div,
+.com-div,
+.trst-div,
+.res-div,
+.awa-div {
+  font-size: 30px;
+  margin-right: 5px;
+  position: relative;
+  left: 0.5em;
+} */
+
+.our {
+  font-size: 21px;
+  padding-left: 180px;
+}
+
+h2 {
+  font-size: 60px;
+  padding-left: 240px;
+  padding-top: 240px;
+}
+
+.para {
+  max-width: 600px;
+  padding-left: 240px;
+}
+
+.div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 51em;
+  width: 42%;
+  gap: 1.5rem;
+  padding-top: -1.5rem;
+}
+
+#icon {
+  width: 30px;
+}
+
+.safe {
+  border: 1px solid black;
+  border-radius: 33px;
+  padding: 15px;
+  padding-right: -12px;
+  background-color: aliceblue;
+}
+/* The End Of The Second Section */
+
+/* The Beginning Of The Third Section */
+
+#The-Compass {
+  scroll-margin-top: -120px;
+}
+
+h3 {
+  position: relative;
+  top: 4.8em;
+  left: 18em;
+  font-family: 'Dancing Script', cursive;
+  font-size: 75px;
+}
+
+.prod {
+  position: relative;
+  top: 21em;
+  left: 64em;
+  font-size: 21px;
+}
+
+.pass {
+  position: relative;
+  top: -10.5em;
+  left: 45em;
+  font-size: 30px;
+  width: 25%;
+  display: block;
+}
+
+#product-compass-image {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  border-radius: 50px;
+  right: -9.6em;
+  top: 15em;
+}
+
+.checks {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -270px;
+}
+
+.list {
+  position: relative;
+  top: -1.5em;
+  left: 43.7em;
+  font-size: 30px;
+  width: 25%;
+  display: block;
+  line-height: 2rem;
+}
+
+.cards {
+  font-size: 18px;
+  margin-left: -60px;
+  display: block;
+  margin-top: -180px;
+  word-wrap: wrap;
+}
+
+#car {
+  padding-top: 9em;
+  word-wrap: wrap;
+}
+
+.circle {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  width: 35%;
+  gap: 1rem;
+  margin-left: 57em;
+  margin-top: -12em;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+  display: block;
+  border: #333 solid 3px;
+  padding: 3.6px;
+  border-radius: 25px;
+  background-color: rgb(249, 251, 254);
+  height: 150px;
+}
+
+/* The End Of The Third Section */
+
+/* The Beginning Of The Fourth Section */
+
+#How-It-Works {
+  max-height: 60vh;
+  scroll-margin-top: 450px;
+}
+
+.works {
+  font-size: 21px;
+  position: relative;
+  left: 210px;
+  top: 4.5em;
+}
+
+.how-it-works {
+  display: flex;
+  gap: 2.1rem;
+  width: 78%;
+  padding-bottom: 300px;
+  padding-left: 210px;
+}
+
+.feel, .under, .build {
+  padding: 24px;
+  border: #333 solid 2px;
+  border-radius: 25px;
+  background-color: rgb(243, 244, 246);
+ }
+
+#heart, #eye, #star {
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  border: #424040 solid;
+  border-radius: 50px;
+  background-color: rgb(142, 141, 141);
+}
+
+h4 {
+  position: relative;
+  font-size: 60px;
+  left: 210px;
+  top: 0.5em;
+}
+
+.recon {
+  font-size: 30px;
+  position: relative;
+  top: 2.1em;
+  left: -99px;
+}
+
+.child {
+  padding-top: 60px;
+}
+
+.nu {
+  position: relative;
+  top: -0.1em;
+  font-size: 30px;
+  left: 450px;
+}
+
+/* End Of The Fourth Section */
+
+/* Beginning Of The Fifth Section */
+
+#Benefits {
+  background: linear-gradient(to top,rgb(201, 220, 237), aliceblue);
+  min-height: 100vh;
+  scroll-margin-top: -120px;
+}
+
+.boxes {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(3, 0.3fr);
+  padding: 45px;
+  margin: 0 auto;
+  transform: translateY(-90px);
+  padding-left: 240px;
+}
+
+.box1, .box2, .box3,
+.box4, .box5,.box6 {
+  background: aliceblue;
+  min-height: 390px;
+  border-radius: 12%;
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
+.box1, .box2, .box3 {
+  margin-top: -240px;
+}
+
+
+.box1:hover, .box2:hover, .box3:hover,
+.box4:hover, .box5:hover, .box6:hover {
+  transform: translateY(-30px);
+}
+
+.ben {
+  padding-left: 90px;
+  font-size: 21px;
+  margin-left: 75px;
+  transform: translateY(-150px);
+}
+
+.what {
+  padding-left: 69em;
+  margin-top: -180px;
+  font-size: 24px;
+  margin-bottom: 360px;
+}
+
+h5 {
+  font-size: 60px;
+  display: block;
+  margin-top: 210px;
+  margin-left: 237px;
+}
+
+.bet {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -3em;
+  font-size: clamp(0.5rem, 1rem, 1.5rem);
+  white-space: wrap;
+}
+
+.for {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0.2em;
+  font-size: 30px;
+  margin-top: 9em;
+  padding: 15px;
+}
+
+.mb1 {
+  border: black dotted 1px;
+  min-height: 120px;
+  border-radius: 20%;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 90px;
+  margin-bottom: -120px;
+  background-color: rgb(253, 182, 182);
+}
+
+.mb2 {
+  border: black dotted 1px;
+  min-height: 120px;
+  border-radius: 20%;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 90px;
+  margin-bottom: -120px;
+  background-color: rgb(245, 219, 223);
+}
+
+.mb3 {
+  border: black dotted 1px;
+  min-height: 120px;
+  border-radius: 20%;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 90px;
+  margin-bottom: -120px;
+  background-color: rgb(208, 249, 208);
+}
+
+.mb4 {
+  border: black dotted 1px;
+  min-height: 120px;
+  border-radius: 20%;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 90px;
+  margin-bottom: -120px;
+  background-color: rgb(193, 193, 244);
+}
+
+.mb5 {
+  border: black dotted 1px;
+  min-height: 120px;
+  border-radius: 20%;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 90px;
+  margin-bottom: -120px;
+  background-color: rgb(244, 229, 191);
+}
+
+.mb6 {
+  border: black dotted 1px;
+  min-height: 120px;
+  border-radius: 20%;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 90px;
+  margin-bottom: -120px;
+  background-color: rgb(234, 215, 180);
+}
+
+.boxes {
+  animation: slideUp 0.8s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* End Of The Fifth Section */
+
+/* Beginning Of The Sixth Section */
+
+.loved {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 84em;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.voce {
+  display: block;
+  position: relative;
+  font-size: 21px;
+  top: 102px;
+  left: 270px;
+}
+
+h6 {
+  font-size: 60px;
+  display: block;
+  margin-top: 150px;
+  margin-left: 264px;
+}
+
+.daug {
+  border: #424040 solid;
+  border-radius: 30px;
+  width: max-content;
+  height: fit-content;
+  padding: 12px;
+  background-color: rgb(251, 251, 252);
+}
+
+.hele {
+  border: #424040 solid;
+  border-radius: 30px;
+  width: max-content;
+  height: fit-content;
+  padding: 12px;
+  background-color: rgb(251, 251, 252);
+}
+
+
+.tomas {
+  border: #424040 solid;
+  border-radius: 30px;
+  width: max-content;
+  height: fit-content;
+  padding: 12px;
+  background-color: rgb(251, 251, 252);
+}
+
+.daug:hover, .hele:hover, .tomas:hover {
+  transform: scale(1.2);
+}
+
+/* End Of The Sixth Section */
+
+/* Beginning Of The Seventh Section */
+
+.kids {
+  padding-left: 192px;
+  position: relative;
+  top: 15rem;
+}
+
+.tools {
+  display: inline-flex;
+  padding-left: 192px;
+  position: relative;
+  top: 15rem;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  padding-left: 420px;
+  line-height: 45px;
+  position: relative;
+  top: 10.8rem;
+}
+
+#stay {
+  position: relative;
+  top: -2.5rem;
+  left: 75rem;
+  font-size: 27px;
+  font-family: monospace;
+  color: #424040;
+}
+
+.on {
+  position: relative;
+  top: -2rem;
+  left: 75rem;
+  font-size: 27px;
+  font-family: monospace;
+}
+
+input {
+  border-radius: 30px;
+  padding: 15px;
+  position: relative;
+  top: -1rem;
+  left: 75rem;
+  width: 18%;
+}
+
+.join {
+  border-radius: 30px;
+  padding: 12px;
+  position: relative;
+  top: -3.3rem;
+  left: 96rem;
+  background-color: #b3b0b0;
+}
+
+.hello {
+  position: relative;
+  top: 0.1rem;
+  left: 75.9rem;
+}
+
+.des {
+  position: relative;
+  left: 57rem;
+  font-size: 21px;
+  top: 0em;
+}
+
+.copy{
+  position: relative;
+  left: 7.5rem;
+  font-size: 21px;
+  top: 0em;
+  color: #685d5d;
+}
+
+#hr {
+  position: relative;
+  top: -1rem;
+  width: 100%;
+}
+
+
+/* End Of The Seventh Section */
